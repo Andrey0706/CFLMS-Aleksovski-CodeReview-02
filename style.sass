@@ -1,0 +1,355 @@
+body 
+	margin: 0
+	font-family: 'Cuprum', sans-serif
+
+header 
+	width: 100%
+	height: 17vw
+
+#headerTop
+	width: 100%
+	height: 13vw
+	background-color: #5C191B
+	display: flex
+	flex-direction: row
+	margin-bottom: 0
+
+#leftPart
+	width: 25%
+	height: 100%
+	display: flex
+	justify-content: center
+	align-items: center
+	margin-left: 2vw
+
+#rightPart
+	width: 75%
+	height: 100%
+	display: flex
+	justify-content: flex-end
+	align-items: center
+	margin-right: 2vw
+
+#logoTopLeft
+	width: 100%
+	
+#bannerTopRight
+	width: 80%
+
+#menu
+	width: 100%
+	height: 4vw
+	background-color: #1A1A1A
+	display: flex
+	align-items: center
+
+nav
+	width: 33%
+	height: 100%
+	display: flex
+	justify-content: center
+	align-items: center
+	margin-left: -2vw
+
+
+ul
+	width: 100%
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+
+li 
+	color: white
+	list-style: none
+	font-size: 2.5vw
+
+#container
+	margin: 0 auto
+	width: 90%
+	height: 120vw
+
+#date
+	text-align: right
+	color: #4C4C4C
+	font-weight: bold
+	font-size: 1.4vw
+
+#sectionHeader
+	background-color: #DDDDDD
+	height: 3vw
+	margin-bottom: 1.5vw
+	display: flex
+	align-items: center
+
+#sectionHeader p
+	font-size: 2.5vw
+	color: #4C4C4C
+	margin-left: 1vw
+
+#secPlusBanner
+	height: 43vw
+
+#sections
+	width: 85%
+	height: 100%
+	float: left
+	margin-bottom: 2vw
+
+#firstAside
+	width: 13%
+	height: 100%
+	float: right
+
+aside img
+	width: 100%
+	height: 100%
+
+#TopNews
+	display: flex
+	justify-content: space-between
+	flex-wrap: wrap
+	margin-bottom: 2vw
+
+#TopNews > div
+	width: 31%
+	height: 9.2vw
+	position: relative
+
+.caption
+	position: absolute
+	background-color: #171717
+	width: 100%
+	color: white
+	margin-top: 11.6vw
+
+.caption p
+	padding-left: 0.5vw
+	font-size: 1.5vw
+	transform: scaleY(1.3)
+
+#TopNews div img
+	width: 100%
+	position: absolute
+
+#banner-mobile
+	display: none
+
+#Popular
+	display: flex
+	justify-content: space-between
+	flex-wrap: wrap
+
+#Popular > div
+	width: 31%
+	height: 9vw
+	position: relative
+
+#Popular div img
+	width: 100%
+	position: absolute
+
+#Popular .hidden
+	display: none
+
+#middleBanner
+	width: 90%
+	margin: 0 auto
+
+#middleBanner img
+	width: 100%
+
+#biggerImagesSection
+	margin-top: 1.2vw
+	margin-bottom: 5vw
+	float: left
+	width: 85%
+	height: 56.5vw
+	display: flex
+	justify-content: space-between
+	flex-wrap: wrap
+
+#biggerImagesSection > div
+	width: 48%
+	height: 30vw
+	position: relative
+
+#biggerImagesSection img
+	width: 100%
+	position: absolute
+	
+
+.biggercaption
+	position: absolute
+	background-color: #171717
+	width: 100%
+	color: white
+	margin-top: 17.8vw
+	font-size: 2.4vw
+
+.biggercaption p
+	padding-left: 0.5vw
+	transform: scaleY(1.3)
+
+.caption p
+	padding-left: 0.5vw
+	
+
+#secondAside
+	margin-top: 2vw
+	width: 13%
+	height: 57.3vw
+	float: right
+
+footer 
+	margin-top: 8vw
+	width: 100%
+	height: 20vw
+	background-color: #171717
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	
+#footerMenu
+	width: 30%
+
+#footerMenu nav
+	width: 100%
+	margin-left: -2vw
+
+#footerMenu ul
+	width: 100%
+	display: flex
+	justify-content: space-between
+
+#footerMenu li
+	font-size: 2vw
+
+#footerLogo
+	width: 23%
+	margin-right: 3vw
+	align-self: flex-end
+
+#footerLogo img
+	width: 100%
+
+#footerBottom
+	align-self: center
+	width: 30%
+
+#footerBottom p
+	color: white
+	font-size: 2vw
+
+@media screen and (max-width: 480px)
+	#banner-mobile
+		display: block
+	#firstAside
+		display: none
+	header
+		margin-bottom: 10vw
+	#headerTop
+		height: 16vw
+	#rightPart
+		display: none
+	#leftPart
+		width: 50%
+		margin-left: 2vw
+	#menu
+		height: 8.5vw
+		display: flex
+		justify-content: center
+	#date
+		display: none
+	nav
+		width: 70%
+		height: 100%
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-left: -16vw
+	li 
+		font-size: 5.2vw
+		transform: scaleY(1.3)
+	#sectionHeader
+		height: 7vw
+	#sectionHeader p 
+		font-size: 6vw
+	#secPlusBanner
+		height: 160vw
+	#TopNews
+		width: 100%
+		height: 73vw
+	#TopNews > div
+		width: 48%
+		height: 30vw
+	#sections
+		width: 100%
+		height: 100%
+		margin-bottom: 2vw
+	.caption
+		position: absolute
+		background-color: #171717
+		width: 100%
+		color: white
+		margin-top: 20.6vw
+	.caption p
+		padding-left: 0.5vw
+		font-size: 2.8vw
+		transform: scaleY(1.3)
+	#middleBanner
+		display: none
+	#secondAside
+		display: none
+	#Popular
+		height: 150vw
+	#Popular > div
+		width: 48%
+		height: 9vw
+		position: relative
+	#Popular div img
+		width: 100%
+		position: absolute
+	.caption p
+		padding-left: 0.5vw
+	#biggerImagesSection
+		display: none
+	#Popular .hidden
+		display: block
+	footer 
+		margin-top: 125vw
+		width: 100%
+		height: 40vw
+		background-color: #171717
+		display: flex
+		flex-direction: column
+		justify-content: space-around
+	#footerMenu
+		width: 100%
+		display: flex
+		justify-content: center
+	#footerMenu nav
+		width: 60%
+		margin-left: -10vw
+	#footerMenu li
+		font-size: 4vw
+	#footerLogo
+		width: 55%
+		margin-right: 3vw
+		align-self: center
+	#footerLogo img
+		width: 100%
+	#footerBottom
+		align-self: center
+		width: 40%
+	#footerBottom p
+		color: white
+		font-size: 3.5vw
+
+
+@media screen and (min-width: 481px)
+	body
+		background-color: white
+
+@media screen and (min-width: 801px)
+	body
+		background-color: white
