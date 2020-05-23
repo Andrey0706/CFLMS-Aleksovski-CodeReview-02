@@ -74,6 +74,9 @@ li a
 li a:hover
 	color: #DDDDDD
 
+.forTablet
+	display: none
+
 #container
 	margin: 0 auto
 	width: 90%
@@ -366,11 +369,123 @@ footer
 	#footerMenu li a
 		font-size: 4vw
 
-
-@media screen and (min-width: 481px)
-	body
-		background-color: white
-
-@media screen and (min-width: 801px)
-	body
-		background-color: white
+//for tablets
+@media (min-width: 768px) and (max-width: 1024px)
+	#banner-mobile
+		display: block
+	#firstAside
+		display: none
+	header
+		margin-bottom: 6vw
+	#headerTop
+		height: 12vw
+	#rightPart
+		display: none
+	#leftPart
+		width: 35%
+		margin-left: 2vw
+	#menu
+		height: 8.5vw
+		display: flex
+		justify-content: center
+	#date
+		display: none
+	nav
+		width: 70%
+		height: 100%
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-left: -16vw
+	li 
+		list-style-type: none
+	li a
+		font-size: 5.2vw
+		transform: scaleY(1.3)
+	.sectionHeader
+		height: 5vw
+	.sectionHeader p 
+		font-size: 5vw
+	#secPlusBanner
+		height: 160vw
+	#TopNews
+		width: 100%
+		height: 73vw
+	#TopNews > div
+		width: 48%
+		height: 30vw
+	#sections
+		width: 100%
+		height: 100%
+		margin-bottom: 2vw
+	.caption
+		position: absolute
+		background-color: #171717
+		width: 100%
+		height: 12.6vw
+		color: white
+		margin-top: 20.6vw
+	.caption p
+		padding-left: 0.5vw
+		font-size: 2.8vw
+		transform: scaleY(1.3)
+	#middleBanner
+		display: none
+	#secondAside
+		display: none
+	#Popular
+		height: 150vw
+	#Popular > div
+		width: 48%
+		height: 9vw
+		position: relative
+	#Popular div img
+		width: 100%
+		position: absolute
+	.caption p
+		padding-left: 0.5vw
+	#biggerImagesSection
+		display: none
+	#Popular .hidden
+		display: block
+	footer 
+		margin-top: 125vw
+		width: 100%
+		height: 40vw
+		background-color: #171717
+		display: flex
+		flex-direction: column
+		justify-content: space-around
+	#footerMenu
+		width: 100%
+		display: flex
+		justify-content: center
+	#footerMenu nav
+		width: 60%
+		margin-left: -10vw
+	#footerMenu li
+		font-size: 4vw
+	#footerLogo
+		width: 55%
+		margin-right: 3vw
+		align-self: center
+	#footerLogo img
+		width: 100%
+	#footerBottom
+		align-self: center
+		width: 40%
+	#footerBottom p
+		color: white
+		font-size: 3.5vw
+	#footerMenu li a
+		font-size: 4vw
+	.forTablet
+		display: block
+		background-color: red
+		height: 5vw
+		text-align: center
+		margin-bottom: 3vw
+	.forTablet p
+		height: 100%
+		color: white
+		font-size: 4vw
