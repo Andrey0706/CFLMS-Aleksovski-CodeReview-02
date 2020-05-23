@@ -1,0 +1,25 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5vw;
+  box-shadow: -10px 0 10px -10px #333, 10px 0 10px -10px #333; }
+
+.tech p {
+  width: 30vw;
+  margin: 0 auto;
+  font-size: 3vw; }
+
+.doubleContainer {
+  width: 90%;
+  margin: 0 auto; }
+
+.articleName {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #5C191B; }
+
+.articleContent p {
+  font-size: 20px; }
+
+/*# sourceMappingURL=articlestyle.css.map */
